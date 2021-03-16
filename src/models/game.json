@@ -1,0 +1,114 @@
+{
+  "name" : "Design Technology",
+  "flipSpeed" : 1000,
+  "cards" : [
+    {
+      "id" : 1,
+      "img" : "apple.png",
+      "state" : "hidden",
+      "matchid" : 1
+    },
+    {
+      "id" : 2,
+      "txt" : "Apple",
+      "state" : "hidden",
+      "matchid" : 1
+    },
+    {
+      "id" : 3,
+      "img" : "banana.jpg",
+      "state" : "hidden",
+      "matchid" : 2
+    },
+    {
+      "id" : 4,
+      "txt" : "Banana",
+      "state" : "hidden",
+      "matchid" : 2
+    },
+    {
+      "id" : 5,
+      "img" : "orange.png",
+      "state" : "hidden",
+      "matchid" : 3
+    },
+    {
+      "id" : 6,
+      "txt" : "Orange",
+      "state" : "hidden",
+      "matchid" : 3
+    },
+    {
+      "id" : 7,
+      "img" : "radish.png",
+      "state" : "hidden",
+      "matchid" : 4
+    },
+    {
+      "id" : 8,
+      "txt" : "Radish",
+      "state" : "hidden",
+      "matchid" : 4
+    },
+    {
+      "id" : 9,
+      "img" : "brussel-sprouts.png",
+      "state" : "hidden",
+      "matchid" : 5
+    },
+    {
+      "id" : 10,
+      "txt" : "Brussel Sprouts",
+      "state" : "hidden",
+      "matchid" : 5
+    },
+    {
+      "id" : 11,
+      "img" : "tomato.jpg",
+      "state" : "hidden",
+      "matchid" : 6
+    },
+    {
+      "id" : 12,
+      "txt" : "Tomato",
+      "state" : "hidden",
+      "matchid" : 6
+    },
+    {
+      "id" : 13,
+      "img" : "lemon.png",
+      "state" : "hidden",
+      "matchid" : 7
+    },
+    {
+      "id" : 14,
+      "txt" : "Lemon",
+      "state" : "hidden",
+      "matchid" : 7
+    },
+    {
+      "id" : 15,
+      "img" : "peas.jpg",
+      "state" : "hidden",
+      "matchid" : 8
+    },
+    {
+      "id" : 16,
+      "txt" : "Peas",
+      "state" : "hidden",
+      "matchid" : 8
+    },
+    {
+      "id" : 17,
+      "img" : "onion.jpg",
+      "state" : "hidden",
+      "matchid" : 9
+    },
+    {
+      "id" : 18,
+      "txt" : "Onion",
+      "state" : "hidden",
+      "matchid" : 9
+    }
+  ]
+}
