@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Game from './components/game';
 import gameData from './models/game.json';
 
+const MAX_MATCH = 2;
+
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
   while (0 !== currentIndex) {
@@ -15,7 +17,6 @@ function shuffle(array) {
 }
 
 function App() {
-  const MAX_MATCH = 2;
   const [pair, updatePair] = useState([]);
   const [cards, updateCards] = useState(shuffle(gameData.cards));
 
