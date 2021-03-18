@@ -1,0 +1,86 @@
+{
+  "name" : "Design Technology",
+  "folder": "dt",
+  "flipSpeed" : 1000,
+  "rows" : 2,
+  "cards" : [
+    {
+      "id" : 1,
+      "img" : "bench-drill.png",
+      "state" : "hidden",
+      "matchid" : 1
+    },
+    {
+      "id" : 2,
+      "txt" : "Bench Drill",
+      "helpTxt" : "Used for drilling holes through materials including a range of woods, plastics and metals",
+      "state" : "hidden",
+      "matchid" : 1
+    }, 
+    {
+      "id" : 3,
+      "img" : "vice.png",
+      "state" : "hidden",
+      "matchid" : 2
+    },
+    {
+      "id" : 4,
+      "txt" : "Vice",
+      "helpTxt" : "Used to hold material in place while they are being worked on",
+      "state" : "hidden",
+      "matchid" : 2
+    },
+    {
+      "id" : 5,
+      "img" : "coping-saw.png",
+      "state" : "hidden",
+      "matchid" : 3
+    },
+    {
+      "id" : 6,
+      "txt" : "Coping Saw",
+      "helpTxt" : "Type of bow saw used to cut intricate external shapes -outs in woodworking or carpentry",
+      "state" : "hidden",
+      "matchid" : 3
+    },
+    {
+      "id" : 7,
+      "img" : "adhesive.png",
+      "state" : "hidden",
+      "matchid" : 4
+    },
+    {
+      "id" : 8,
+      "txt" : "Adhesives",
+      "helpTxt" : "Are used to join materials by gluing. Different types of adhesives are used for different materials",
+      "state" : "hidden",
+      "matchid" : 4
+    },
+    {
+      "id" : 9,
+      "img" : "fret-saw.png",
+      "state" : "hidden",
+      "matchid" : 5
+    },
+    {
+      "id" : 10,
+      "txt" : "Adhesives",
+      "helpTxt" : "Used for intricate cutting work which often incorporates tight curves",
+      "state" : "hidden",
+      "matchid" : 5
+    },
+    {
+      "id" : 11,
+      "img" : "sand-paper.jpg",
+      "state" : "hidden",
+      "matchid" : 6
+    },
+    {
+      "id" : 12,
+      "txt" : "Sand Paper",
+      "helpTxt" : "Is a hand tool coarse form of file used for coarsely shaping wood or other material",
+      "state" : "hidden",
+      "matchid" : 6
+    }
+  ]
+}

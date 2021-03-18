@@ -1,5 +1,6 @@
 {
-  "name" : "Design Technology",
+  "name" : "Which Fruit",
+  "folder": "fruit",
   "flipSpeed" : 1000,
   "cards" : [
     {

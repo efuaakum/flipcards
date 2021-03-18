@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Game from './components/game';
-import gameData from './models/game.json';
+import gameData from './models/dt.json';
 
 const MAX_MATCH = 2;
 
@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div className="App">
-      <Game name={gameData.name} cards={cards} flipCard={flipCard} />
+      <Game name={gameData.name} folder={gameData.folder} rows={gameData.rows} cards={cards} flipCard={flipCard} />
     </div>
   );
 }
