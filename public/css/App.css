@@ -1,12 +1,13 @@
-.App h1{
+.App h1 {
   text-align: center;
 }
 
-.game{
-  width:95%;
-  margin:0 auto;
+.game {
+  width: 95%;
+  margin: 0 auto;
 }
-.game-container{
+
+.game-container {
   text-align: left;
 }
 
@@ -16,10 +17,10 @@
   height: 250px;
   perspective: 1000px; 
   cursor: pointer;
-  display:inline-block;
+  display: inline-block;
   vertical-align: top;
-  margin-right:25px;
-  margin-bottom:25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
 }
 
 .card.matched .inner{
@@ -43,7 +44,7 @@
   margin: 0px auto;
   margin-top:25px;
 }
-.card-txt p{
+.card-txt p {
   font-size: 1.2em;
 }
 
@@ -51,7 +52,7 @@
 .card.matched .inner {
   transform: rotateY(180deg);
 }
-.card.show.max .inner{
+.card.show.max .inner {
   border: 3px dashed rgb(255, 8, 0);
 }
 
@@ -65,7 +66,7 @@
   text-align: center;
 }
 
-.card .front{
+.card .front {
   background-image: url("../img/back.jpg");
 }
 

@@ -1,0 +1,26 @@
+name: Flip cards CI/CD
+# Trigger thr workflow on push to the main branch
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-test-deply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+      - name: Deploy
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: gh-pages
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
