@@ -23,10 +23,6 @@
   margin-bottom: 25px;
 }
 
-.card.matched .inner{
-  border: 3px solid rgb(0, 156, 65);
-}
-
 .card .inner {
   position: relative;
   width: 100%;
@@ -58,6 +54,7 @@
 .card.matched .inner {
   transform: rotateY(180deg);
 }
+
 .card.show.max .inner {
   border: 3px dashed rgb(255, 8, 0);
 }
