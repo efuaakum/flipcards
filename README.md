@@ -1,3 +1,1 @@
-# Memory Game
-
-[![GitHub Super-Linter](https://github.com/efuaakum/flipcards/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Super Linter](https://github.com/efuaakum/flipcards/actions/workflows/linter.yml/badge.svg)](https://github.com/efuaakum/flipcards/actions/workflows/linter.yml)
