@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react'
 import App from './App'
+import fixture from './models/dt.json'
 
-test('renders learn react link', () => {
-  render(<App />)
-  const linkElement = screen.getByText(/learn react/i)
-  expect(linkElement).toBeInTheDocument()
+test('renders game title', () => {
+  const { getByText } = render(<App />)
+  expect(getByText(fixture.name)).toBeInTheDocument()
 })
