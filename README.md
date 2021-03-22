@@ -24,19 +24,19 @@ Flip the cards and remember the positions. Match all the pairs to finish the gam
 
 View when the initial game loads.
 
-![Initial Game View](docs\img\game-initial.png)
+![Initial Game View](docs/img/game-initial.png)
 
 ### No Match
 
 View when two cards don't match.
 
-![Initial Game View](docs\img\game-no-match.png)
+![Initial Game View](docs/img/game-no-match.png)
 
 ### Matched
 
 View when two cards match.
 
-![Initial Game View](docs\img\game-match.png)
+![Initial Game View](docs/img/game-match.png)
 
 ## Future Enhancements
 
