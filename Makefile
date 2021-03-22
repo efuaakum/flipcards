@@ -1,3 +1,3 @@
-start-dev: export PUBLIC_URL=.
-start-dev:
+run-dev: export PUBLIC_URL=.
+run-dev:
 	npm start
