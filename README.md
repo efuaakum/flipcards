@@ -10,9 +10,9 @@ This repository contains a simple React.js memory and knowledge game. The game i
 1. Clone the repository
 1. Run `npm install` from the root directory to install the node modules
 1. Run `npm test` to run the latest test script
-1. To run a local version of the the app, from a terminal set the `PUBLIC_URL` to the root directory, e.g. 
-  - Mac: `export PUBLIC_URL=.`
-  - Windows: `SET PUBLIC_URL=.`
+1. To run a local version of the the app, from a terminal set the `PUBLIC_URL` to the root directory, e.g.
+- Mac: `export PUBLIC_URL=.`
+- Windows: `SET PUBLIC_URL=.`
 5. Then call `npm run` from the terminal
 1. Or alternatively call `make run-dev` from the command line.
 
