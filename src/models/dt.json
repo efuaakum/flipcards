@@ -39,7 +39,7 @@
     {
       "id" : 6,
       "txt" : "Coping Saw",
-      "helpTxt" : "Type of bow saw used to cut intricate external shapes -outs in woodworking or carpentry",
+      "helpTxt" : "Type of bow saw used to cut intricate external shapes out in woodworking or carpentry",
       "state" : "hidden",
       "matchid" : 3
     },
