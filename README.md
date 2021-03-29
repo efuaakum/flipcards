@@ -14,7 +14,7 @@ This repository contains a simple React.js memory and knowledge game. The game i
 - Mac: `export PUBLIC_URL=.`
 - Windows: `SET PUBLIC_URL=.`
 5. Then call `npm run` from the terminal
-1. Or alternatively call `make run-dev` from the command line.
+1. Or alternatively call `make run-dev` from the command line (linux/mac only).
 
 ## How to Play
 

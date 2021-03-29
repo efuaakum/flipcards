@@ -11,7 +11,7 @@ const Game = ({ cards, ...props }) => {
         (cards.length === 0)
           ? (<div className='empty'>No cards...</div>)
           : (cards
-              .map((card) => (<Card key={card.id} card={card} {...props} />)
+              .map((card, index) => (<Card key={card.id} count={index} card={card} {...props} />)
               )
             )
       }

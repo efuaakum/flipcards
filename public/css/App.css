@@ -74,6 +74,14 @@
   background-image: url("../img/back.jpg");
 }
 
+.card .front span.count {
+  font-size: 7em;
+  font-weight: bold;
+  letter-spacing: -15px;
+  color: #8a290c;
+  text-align: center;
+}
+
 .card .back {
   animation-delay: 2s;
   transform: rotateY(180deg);
